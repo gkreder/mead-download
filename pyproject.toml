@@ -1,0 +1,14 @@
+[project]
+name = "mead-download"
+version = "0.1.0"
+description = "This is a tiny MEAD dataset downloader."
+authors = [{name = "Alex Hickey"}]
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "gdown>=5.2.0",
+    "pandas>=2.3.1",
+    "pycurl>=7.45.6",
+    "tqdm>=4.67.1",
+]
+urls = { Source = "https://github.com/alexeatscake/mead-download" }
