@@ -10,5 +10,8 @@ dependencies = [
     "pandas>=2.3.1",
     "pycurl>=7.45.6",
     "tqdm>=4.67.1",
+    "google-auth>=2.56.0,<3",
+    "google-auth-oauthlib>=1.4.0,<2",
+    "requests>=2.34.2,<3"
 ]
 urls = { Source = "https://github.com/alexeatscake/mead-download" }

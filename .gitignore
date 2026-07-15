@@ -1,3 +1,18 @@
 /MEAD/
 .venv/
 .DS_Store
+
+# OAuth Credentials
+credentials.json
+token.json
+
+# Downloaded dataset
+MEAD
+
+# Verification output
+mead_verification.csv
+
+*.egg-info
+build/
+dist/
+
